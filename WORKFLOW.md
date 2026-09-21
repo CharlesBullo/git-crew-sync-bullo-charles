@@ -1,4 +1,5 @@
 1. What did the rejected push error message tell you, and why did it happen?
+   
   ! [rejected]        feature/overtime-pay -> feature/overtime-pay (fetch first)
   error: failed to push some refs to 'https://github.com/CharlesBullo/git-crew-sync-bullo-charles.git'
   hint: Updates were rejected because the remote contains work that you do
