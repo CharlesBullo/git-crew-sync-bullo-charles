@@ -3,7 +3,11 @@ function isValidShift(hours) {
 }
 
 function calculatePay(hours, rate) {
-if (hours <= 8) {
+  if (hours < 0) {
+    throw new Error("hours must be non-negative");
+  }
+  
+  if (hours <= 8) {
     return Math.floor(hours * rate);
   }
 
